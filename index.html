@@ -3,17 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="ayush">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnKZI49TY3eMdfAgnBSN8MiQySnvcEaNE"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBnKZI49TY3eMdfAgnBSN8MiQySnvcEaNE"></script>
     <script src="script.js"></script>
    
-<button id="btn" onclick="locate()">My current Position</button>
-<div id="lat" class="design"></div>
-<div id="long" class="design"></div>
-<div id="output"></div>
+<button id="btn" onclick="locate()">Get Info</button>
+<div id="lat" style="margin: 0 auto; font-family: 'Courier New', Courier, monospace; margin-top: 10px;">Current Latitude : </div>
+<div id="long" style="margin: 0 auto; font-family: 'Courier New', Courier, monospace;margin-top: 10px; margin-bottom: 10px;">Current Longitude : </div>
+<table style="width:80%">
+    <tr>
+      <th class="p">S.No.</th>
+      <th class="p">Data Type</th>
+      <th class="p">Value</th>
+
+      
+    </tr>
+    <tr>
+      <td class="p">1.</td>
+      <td class="p">Average Minimum Temperature</td>
+      <td id="1"class="p"></td>
+      
+    </tr>
+    <tr>
+        <td class="p">2.</td>
+      <td class="p">Average Maximum Temperature</td>
+      <td id="2"class="p"></td>
+  
+    </tr>
+    <tr>
+        <td class="p">3.</td>
+      <td class="p">Surface Temperature</td>
+      <td id="3"class="p"></td>
+     
+    </tr>
+    <tr>
+        <td class="p">4.</td>
+      <td class="p">Soil Moisture</td>
+      <td id="4"class="p"></td>
+      
+    </tr>
+    <tr>
+        <td class="p">5.</td>
+      <td class="p">Soil Temperature</td>
+      <td id="5"class="p"></td>
+      
+    </tr>
+
+  </table>
 
 
 </body>
