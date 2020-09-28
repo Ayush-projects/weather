@@ -42,8 +42,9 @@ async function temp(){
      temp2 = temp2/12;
      temp1 = Math.round(temp1*100)/100;
      temp2 = Math.round(temp2*100)/100;
-     document.getElementById("1").innerHTML = temp1;
-     document.getElementById("2").innerHTML = temp2;
+     document.getElementById("1").innerHTML = temp1 +  " °C";
+	
+     document.getElementById("2").innerHTML = temp2 +  " °C";
        
      
     
