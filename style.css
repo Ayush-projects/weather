@@ -2,3 +2,25 @@
 background-color: #069496;
 font-size: 100dp;
 }
+.design {
+  
+
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    align-self: center;
+
+  }
+.p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn {
+    border-radius:0.5px;
+    margin: 0 auto;
+}
+#ayush {
+    display:flex; flex-direction: column;justify-content: center;
+    min-height: 100vh;
+}
