@@ -24,7 +24,7 @@ function locate()
 
 // })
 async function info(){
-    let data = await fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=4040d4398cdf4708882190352202709&q=${latitude},${longitude}&num_of_days=2&tp=3&mca=yes&format=json`);
+    let data = await fetch(`https://api.worldweatheronline.com/premium/v1/weather.ashx?key=4040d4398cdf4708882190352202709&q=${latitude},${longitude}&num_of_days=2&tp=3&mca=yes&format=json`);
     let b = await data.json();
     console.log(b);
     
